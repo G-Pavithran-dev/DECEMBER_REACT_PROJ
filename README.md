@@ -1,73 +1,25 @@
-# DECEMBER_REACT_PROJ
-A React-App that toogle between two images  when clicked.
+# Imagify - Image Toogler
 
-# Getting Started with Create React App
+## December-React-Project
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+### Overview
 
-## Available Scripts
+The **ImageToggler** component is a React-based user interface that allows users to toggle between two images (before and after) and perform various actions on the displayed images. The component leverages Material-UI for the UI components and icons.
 
-In the project directory, you can run:
+### Project Statement :
+To create a react application that toogles the image when clicked.
+### Tech Stack:
+- **React :** React is a popular JavaScript library for building user interfaces. Developed and maintained by Facebook, React has gained widespread adoption for its simplicity, efficiency, and flexibility.
+- **Material UI :** Material-UI is a popular React UI framework that provides pre-designed React components based on Google's Material Design principles.
+- **Lorem Picsum API :** This API points to an image hosted on the "Lorem Picsum" service. This service allows you to dynamically generate placeholder images of various dimensions.
+- **WebShare API :** The Web Share API is a browser API that allows web applications to invoke the native sharing capabilities of a device. It enables easy sharing of content like text, links, and files directly
 
-### `npm start`
+### Image Actions
+- **Share**: Uses the Web Share API to share the image URL.
+- **Print**: Opens a new window to display the image for printing.
+- **Save**: Initiates the download of the image.
+- **Copy**: Copies the image URL to the clipboard.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+### Conclusion
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
-
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+The `ImageToogler` component combines React and Material-UI to create a user-friendly image toggling interface with additional functionalities for sharing, printing, saving, and copying images. The code is well-organized, making it easy to understand and extend.
