@@ -85,7 +85,7 @@ const ImageToogler = () => {
           cursor: 'pointer',
           bgcolor: '#f5f5f5',
         }}
-        onClick={() => setClicked(true)}
+        onClick={() => setClicked(!clicked)}
       >
         <Typography variant="h6" sx={{}}>
           {clicked ? 'AFTER' : 'BEFORE'}
